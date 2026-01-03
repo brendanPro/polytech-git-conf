@@ -375,14 +375,23 @@ layout: two-cols-header
 
 <v-click>
 
-<div class="mermaid-small">
+<div class="text-xs mb-3 ml-2 p-2 bg-gray rounded text-left">
+  <div class="font-bold mb-1">🔑 Principe clé :</div>
+  <div>Chaque objet est immuable et identifié par son SHA-1. Si le contenu change, le hash change !</div>
+</div>
+
+</v-click>
+
+<v-click>
+
 
 ```mermaid
+%%{init: {'theme':'default', 'themeVariables': {'fontSize':'11px', 'lineColor':'#fff', 'primaryTextColor':'#000'}, 'flowchart': {'nodeSpacing': 25, 'rankSpacing': 30}}}%%
 graph TD
-    Commit[💾 Commit<br/>abc123]
-    Tree[📁 Tree<br/>def456]
-    Blob1[📄 Blob<br/>ghi789<br/>app.js]
-    Blob2[📄 Blob<br/>jkl012<br/>style.css]
+    Commit["💾 Commit<br/>abc123"]
+    Tree["📁 Tree<br/>def456"]
+    Blob1["📄 Blob<br/>ghi789<br/>app.js"]
+    Blob2["📄 Blob<br/>jkl012<br/>style.css"]
     
     Commit -->|pointe vers| Tree
     Tree -->|contient| Blob1
@@ -394,16 +403,6 @@ graph TD
     style Blob2 fill:#a855f7,color:#fff
 ```
 
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="text-xs mt-2 p-2 bg-gray rounded text-left">
-  <div class="font-bold mb-1">🔑 Principe clé :</div>
-  <div>Chaque objet est immuable et identifié par son SHA-1. Si le contenu change, le hash change !</div>
-</div>
 
 </v-click>
 
@@ -423,14 +422,6 @@ graph TD
     color: white;
   }
   
-  .mermaid-small svg {
-    max-height: 280px;
-    font-size: 11px;
-  }
-  
-  .mermaid-small .nodeLabel {
-    font-size: 10px !important;
-  }
 </style>
 
 <!--

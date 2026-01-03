@@ -20,3 +20,7 @@ src: ./pages/01-introduction.md
 src: ./pages/02-fondations.md
 ---
 
+---
+src: ./pages/03-commandes-workflows.md
+---
+
