@@ -24,3 +24,11 @@ src: ./pages/02-fondations.md
 src: ./pages/03-commandes-workflows.md
 ---
 
+---
+src: ./pages/04-ia.md
+---
+
+---
+src: ./pages/05-conclusion.md
+---
+
