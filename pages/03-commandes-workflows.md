@@ -6,9 +6,10 @@ class: text-center
 # 🛠️ Git en Action
 
 <div class="mt-12 text-2xl space-y-8">
+  
   <v-click>
     <div class="opacity-80">
-      Les commandes essentielles
+      Les zones & commandes essentielles 
     </div>
   </v-click>
   
@@ -100,7 +101,7 @@ graph LR
     
     WD -->|git add| SA
     SA -->|git commit| Repo
-    Repo -->|git checkout| WD
+    Repo -->|git reset | WD
     SA -->|git restore --staged| WD
     
     style WD fill:#eab308,color:#fff
@@ -294,7 +295,7 @@ class: text-center
       <div class="font-bold text-sm text-blue-400">📋 Consulter l'état</div>
       <div class="space-y-1 mt-1">
         <div><code>git status</code> - État actuel</div>
-        <div><code>git log --oneline</code> - Historique</div>
+        <div><code>git log </code> - Historique</div>
         <div><code>git diff</code> - Modifications</div>
       </div>
     </div>
