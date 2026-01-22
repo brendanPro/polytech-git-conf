@@ -28,6 +28,42 @@ Notes pour le présentateur:
 
 ---
 transition: fade-out
+layout: center
+---
+
+# 📋 Plan de la Conférence
+
+<div class="mt-12 text-left max-w-3xl mx-auto">
+  <div v-click class="mb-6 text-2xl">
+    <span class="text-blue-400">1️⃣</span> <span class="font-bold">Petit jeu</span> — Levez la main !
+  </div>
+  
+  <div v-click class="mb-6 text-2xl">
+    <span class="text-green-400">2️⃣</span> <span class="font-bold">Historique de Git</span> — D'où vient cet outil ?
+  </div>
+  
+  <div v-click class="mb-6 text-2xl">
+    <span class="text-yellow-400">3️⃣</span> <span class="font-bold">Sous le capot</span> — Comment ça marche vraiment ?
+  </div>
+  
+  <div v-click class="mb-6 text-2xl">
+    <span class="text-purple-400">4️⃣</span> <span class="font-bold">Le milieu professionnel</span> — Workflows & commandes
+  </div>
+  
+  <div v-click class="mb-6 text-2xl">
+    <span class="text-red-400">5️⃣</span> <span class="font-bold">L'IA et les outils modernes</span> — Quand l'IA rencontre Git
+  </div>
+</div>
+
+<!--
+Notes pour le présentateur:
+- Présenter rapidement le plan pour donner une vue d'ensemble
+- Durée totale : environ 1h30
+- Interaction tout au long de la présentation
+-->
+
+---
+transition: fade-out
 ---
 
 # L'Audit de Compétences
@@ -197,7 +233,7 @@ layout: center
 class: text-center
 ---
 
-# Question 13
+# Question 12
 
 <div class="text-4xl font-bold mt-8">
   <v-click>
@@ -211,7 +247,7 @@ layout: center
 class: text-center
 ---
 
-# Question 12
+# Question 13
 
 <div class="text-4xl font-bold mt-8">
   <v-click>
